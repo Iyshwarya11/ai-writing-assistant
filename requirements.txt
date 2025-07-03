@@ -4,6 +4,5 @@ supabase==2.0.2
 python-dotenv==1.0.0
 requests==2.31.0
 pydantic==2.5.0
+httpx==0.24.1  # ⚠️ must be <0.25.0 for supabase
 python-multipart==0.0.6
-# httpx version that matches supabase
-httpx==0.24.1
